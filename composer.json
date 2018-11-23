@@ -1,0 +1,21 @@
+{
+    "name": "cms_framework_seed/task",
+    "description": "Task package for CMS SEED",
+    "keywords": ["cms_framework_seed", "task"],
+    "license": "MIT",
+    "homepage": "https://github.com/CMS-SEED/Task",
+    "authors": [
+        {
+            "name": "30Hills",
+            "email": "info@30hills.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": { 
+            "Cms_Framework_Seed\\Task\\": "src"
+        }
+    }
+}
